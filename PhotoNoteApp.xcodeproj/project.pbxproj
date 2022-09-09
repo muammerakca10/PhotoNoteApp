@@ -13,7 +13,7 @@
 		459D284E28CB340C00BD49DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459D284C28CB340C00BD49DD /* Main.storyboard */; };
 		459D285028CB341800BD49DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459D284F28CB341800BD49DD /* Assets.xcassets */; };
 		459D285328CB341800BD49DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459D285128CB341800BD49DD /* LaunchScreen.storyboard */; };
-		459D285B28CB3CBD00BD49DD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D285A28CB3CBC00BD49DD /* PersonCell.swift */; };
+		459D285F28CB401C00BD49DD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D285E28CB401C00BD49DD /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		459D284F28CB341800BD49DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459D285228CB341800BD49DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459D285428CB341800BD49DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		459D285A28CB3CBC00BD49DD /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		459D285E28CB401C00BD49DD /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				459D284628CB340C00BD49DD /* AppDelegate.swift */,
-				459D285A28CB3CBC00BD49DD /* PersonCell.swift */,
 				459D284828CB340C00BD49DD /* SceneDelegate.swift */,
 				459D284A28CB340C00BD49DD /* ViewController.swift */,
 				459D284C28CB340C00BD49DD /* Main.storyboard */,
+				459D285E28CB401C00BD49DD /* PersonCell.swift */,
 				459D284F28CB341800BD49DD /* Assets.xcassets */,
 				459D285128CB341800BD49DD /* LaunchScreen.storyboard */,
 				459D285428CB341800BD49DD /* Info.plist */,
@@ -143,7 +143,7 @@
 			files = (
 				459D284B28CB340C00BD49DD /* ViewController.swift in Sources */,
 				459D284728CB340C00BD49DD /* AppDelegate.swift in Sources */,
-				459D285B28CB3CBD00BD49DD /* PersonCell.swift in Sources */,
+				459D285F28CB401C00BD49DD /* PersonCell.swift in Sources */,
 				459D284928CB340C00BD49DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
