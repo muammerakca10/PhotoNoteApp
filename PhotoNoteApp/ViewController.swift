@@ -91,6 +91,13 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         present(ac, animated: true)
     }
     
+    func save(){
+        if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: people, requiringSecureCoding: false) {
+            let defaults = UserDefaults.standard
+            defaults.set(savedData,forKey: "people")
+            
+        }
+    }
     
 }
 
